@@ -166,26 +166,21 @@ INSERT INTO `resource_categories` (`id`,`name`,`typename`,`parent_id`) VALUES
  (905,'Homogenized Milk','homogenized_milk',5),
  (906,'Processed Meat','processed_meat',28),
  (907,'Processed Seafood','processed_seafood',117),
- (908,'Ground Bones','ground_bones',150),
- (909,'Ground Horn','bone_horn_ground',161),
  (910,'Synthesized Hides','synthesized_hides',183),
  (914,'Mixed Vegetables','mixed_vegetables',324),
  (915,'Mixed Fruits','mixed_fruits',369),
  (916,'Chemical Compond','chemical_compond',439),
- (920,'Smelted Iron','iron_smelted',499),
- (921,'Smelted Aluminum','aluminum_smelted',510),
- (922,'Smelted Copper','copper_smelted',517),
  (923,'Degraded Solid Petrochem Fuel','degraded_fuel_petrochem_solid',465),
  (924,'Combined Radioactive Isotopes','combined_radioactive_isotpopes',475),
  (925,'Water Solution','water_solution',453),
- (926,'Smelted Ferrous Metal','smelted_metal_ferrous_unknown',487),
- (927,'Smelted Non-Ferrous Metal','smelted_metal_nonferrous_unknown',509),
+ (926,'Smelted Ferrous Metal','smelted_metal_ferrous_unknown',486),
+ (927,'Smelted Non-Ferrous Metal','smelted_metal_nonferrous_unknown',508),
  (934,'Blended Wood','processed_wood',404),
  (950,'Processed Cereal','processed_cereal',230),
- (981,'Low Quality Gemstone','gemstone_mixed_low_quality',570),
- (982,'Low Grade Ore (Igneous)','ore_extrusive_low_grade',530),
- (983,'Low Grade Ore (Sedimentary)','ore_carbonate_low_grade',553),
- (984,'Low Grade Ore (Siliclastic)','ore_siliclastic_low_grade',562);
+ (981,'Low Quality Gemstone','gemstone_mixed_low_quality',569),
+ (982,'Low Grade Ore (Igneous)','ore_extrusive_low_grade',527),
+ (983,'Low Grade Ore (Sedimentary)','ore_carbonate_low_grade',527),
+ (984,'Low Grade Ore (Siliclastic)','ore_siliclastic_low_grade',527);
 /*!40000 ALTER TABLE `resource_categories` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
